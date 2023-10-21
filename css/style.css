@@ -1,0 +1,131 @@
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+.logotype {
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-span {
+    color: #2e2f42;
+}
+.logo-span-basement {
+    color: #f4f4fd;
+}
+.menu-link {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}  
+.menu-link:hover,
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.hero-button:hover,
+.hero-button:focus {
+    color: #404bbf;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+.contact {
+    font-style: normal;
+}
+.contact-link {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+.hero-title {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+.title {
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+.title-portfolio,
+.advantages-title,
+.title-list {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+.hero {
+    background-color: #2e2f42;
+}
+.hero-button {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.list-team-item {
+    background-color: #FFFFFF;
+}
+/* === FOOTER=== */
+.basement {
+    background-color: #2e2f42;
+}
+.basement-text {
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
