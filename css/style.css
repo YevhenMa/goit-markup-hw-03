@@ -4,6 +4,8 @@
 }
 .link {
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 button {
     cursor: pointer;
@@ -239,11 +241,13 @@ body {
 .team-text {
     text-align: center;
 }
-.basement-link {
+/* .basement-link {
     display: inline-block;
-    margin-bottom: 16px;
-}
-.porfolio {
+    margin-bottom: 16px; }
+*/
+
+
+.portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
 }
