@@ -165,6 +165,8 @@ body {
 }
 /* === FOOTER=== */
 .basement {
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #2e2f42;
 }
 .basement-text {
@@ -207,4 +209,34 @@ body {
 }
 .advantages-title {
     margin-bottom: 8px;
+}
+.advantages-list-item {
+    width: calc((100% - 72px) / 4);
+}
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.team-title {
+    margin-bottom: 72px;
+}
+.list-team {
+    display: flex;
+    gap: 24px;
+}
+.list-team-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.container-team {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.title-list {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-text {
+    text-align: center;
+}
 }
