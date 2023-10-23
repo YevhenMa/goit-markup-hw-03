@@ -1,3 +1,4 @@
+/* ====скидання==== */
 .list {
     list-style-type: none;
 }
@@ -7,6 +8,19 @@
 button {
     cursor: pointer;
 }
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+/* ====скидання==== */
 body {
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
@@ -26,6 +40,7 @@ body {
     text-align: left;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo-span {
     color: #2e2f42;
@@ -56,6 +71,7 @@ body {
 }
 .contact {
     font-style: normal;
+    margin-left: 332px;
 }
 .contact-link {
     font-family: 'Roboto',sans-serif;
@@ -128,4 +144,32 @@ body {
 .basement-text {
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+/* today */
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+} 
+
+.list-contact {
+    display: flex;
+    column-gap: 40px;
+} 
+
+.list-nav {
+    display: flex;
+    column-gap: 40px;
+}
+.page-header {
+    border: 1px solid #e7e9fc;
 }
