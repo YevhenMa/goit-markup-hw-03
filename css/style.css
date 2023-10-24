@@ -19,8 +19,8 @@ ul,ol {
 }
 img {
     display: block;
+    max-width: 100%;
 }
-/* ====скидання==== */
 body {
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
@@ -31,6 +31,7 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
+/* ====скидання==== */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -44,6 +45,7 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/* ==========header============ */
 .logotype {
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
@@ -144,11 +146,12 @@ body {
     padding-bottom: 188px;
 }
 .hero-button {
+    margin-top: 48px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
-    min-width: 169px;
+    width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -171,15 +174,22 @@ body {
     background-color: #2e2f42;
 }
 .basement-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: left;
+    width: 264px;
+    height: 72px;
     color: #F4F4FD;
 }
-.footer-link {
+.basement-link {
     display: inline-block;
     margin-bottom: 16px;
 }
 
-/* today */
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -188,7 +198,22 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+.container-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+.container-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .main-nav {
     display: flex;
     align-items: center;
@@ -260,10 +285,22 @@ body {
     width: calc((100% - 48px) / 3);
 }
 .container-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.container-portfolio-main {
+    display: flex;
+    flex-direction: column;
+}
 .title-portfolio {
     margin-bottom: 8px;
+}
+.basement-text {
+    
+}
+.portfolio-img {
 }
