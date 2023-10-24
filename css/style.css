@@ -157,6 +157,10 @@ body {
     border-radius: 4px;
     color: #ffffff;
 }
+.hero-button {
+    display: block;
+    min-width: 169px;
+}
 .advantages { 
     padding-top: 120px;
     padding-bottom: 120px;
