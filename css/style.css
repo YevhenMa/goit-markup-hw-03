@@ -188,7 +188,18 @@ body {
     height: 72px;
     color: #F4F4FD;
 }
+/* .basement-link {
+    display: inline-block;
+    margin-bottom: 16px;}*/
+
 .basement-link {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
 }
