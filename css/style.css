@@ -200,7 +200,9 @@ body {
     display: inline-block;
     margin-bottom: 16px;
 }
-
+.container-header{
+    display: flex;
+}
 .container {
     width: 1158px;
     margin-left: auto;
